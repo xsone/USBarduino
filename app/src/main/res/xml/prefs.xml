@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   <PreferenceCategory
+    android:title="Settings" >
+
+       <EditTextPreference
+           android:defaultValue="xsone2@gmail.com"
+           android:dialogTitle="Enter Email Address"
+           android:inputType="textEmailAddress"
+           android:key="emailaddress"
+           android:summary="Send alarm by email"
+           android:title="Email Address" />
+
+       <EditTextPreference
+           android:defaultValue="1"
+           android:dialogTitle="Enter loginterval (sec.)"
+           android:inputType="numberDecimal"
+           android:key="logInterval"
+           android:summary="Set log interval"
+           android:title="Set Log Interval (sec.)" />
+
+       <EditTextPreference
+           android:defaultValue="5"
+           android:dialogTitle="Enter interval OBD (sec.)"
+           android:inputType="numberDecimal"
+           android:key="obdLogInterval"
+           android:summary="Set log interval OBD"
+           android:title="Set Log Interval OBD (sec.)" />
+
+       <CheckBoxPreference
+           android:key="tts"
+           android:title="Text To Speak (TTS)"
+           android:defaultValue="false" />
+    </PreferenceCategory>
+ </PreferenceScreen>

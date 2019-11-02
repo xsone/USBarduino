@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">USBarduino</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  Menu Settings -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_write_file">Exit Write File</string>
+    <string name="menu_exit">Exit App</string>
+</resources>

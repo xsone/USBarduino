@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.usbarduino.MainActivity">
+    <item android:id="@+id/secure_connect_scan"
+        android:title="Connect" />
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings" />
+    <item android:id="@+id/menu_exit"
+        android:title="@string/menu_exit" />
+</menu>
